@@ -4,6 +4,11 @@ HTTP API for email, built on OCaml. Wraps [mbsync](https://isync.sourceforge.io/
 
 Tests and docs/openapi.json are AI generated.
 
+## TODO
+
+- [ ] Sending Mails
+- [ ] Queueing Mails
+
 ## Prerequisites
 
 - OCaml 5.x with opam
