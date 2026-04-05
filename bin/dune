@@ -1,0 +1,4 @@
+(executable
+ (public_name sakura-mail)
+ (name main)
+ (libraries sakura_mail))

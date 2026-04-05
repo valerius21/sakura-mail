@@ -1,0 +1,7 @@
+(include_subdirs unqualified)
+
+(library
+ (name sakura_mail)
+ (libraries unix dream yojson lwt lwt.unix mrmime ptime uuidm base64)
+ (preprocess
+  (pps ppx_deriving_yojson lwt_ppx)))
